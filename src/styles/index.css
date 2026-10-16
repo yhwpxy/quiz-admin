@@ -1,0 +1,73 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 页面通用容器 */
+.page-container {
+  padding: 20px;
+}
+
+.page-card {
+  margin-bottom: 16px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.toolbar .el-input,
+.toolbar .el-select {
+  width: 220px;
+  margin-right: 12px;
+}
+
+.pagination {
+  margin-top: 16px;
+  text-align: right;
+}
+
+/* 登录页背景 */
+.login-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1f3b73 0%, #2d5aa8 50%, #409eff 100%);
+}
+
+.login-card {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #303133;
+  margin: 8px 0 24px;
+}
+
+.login-hint {
+  margin-top: 16px;
+  padding: 10px 12px;
+  background: #ecf5ff;
+  border-radius: 4px;
+  color: #409eff;
+  font-size: 13px;
+  line-height: 1.6;
+}
